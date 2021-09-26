@@ -6,5 +6,8 @@ setInterval(() => {
     
 }, 1000);
     
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 73511fe1f57d7e3dae63ed28cc5abf00621718ea
