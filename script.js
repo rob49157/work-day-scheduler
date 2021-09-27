@@ -14,12 +14,14 @@ setInterval(() => {
     
 }, 1000)
 
+// change row colors
+
 // add to localstorage
 function save(text){
     localStorage.setItem(text.id, text.value)
 }
 
-// retrieve from localstorage
+// retrieve from localstorage. need different loop to loop in the localstorage
 for( var key in localStorage){
     var htmlelement= document.getElementById(key)
     htmlelement.value= localStorage.getItem(key)
