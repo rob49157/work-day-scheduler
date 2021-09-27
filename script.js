@@ -9,14 +9,19 @@ setInterval(() => {
     
 }, 1000)
 
-// change row colors
+// change row colors.run a loop thru the today function, and everytime the time changes change  the color of the row using the ID"ROW" TO CHANGE THE TABLE ACTIVE CLASS. WITH AND IF STATEMENT. 
+
+function color(){
+    
+    $(".table-active").
+}
 
 // add to localstorage
 function save(text){
     localStorage.setItem(text.id, text.value)
 }
 
-// retrieve from localstorage. need different loop to loop in the localstorage
+// retrieve from localstorage. need different for loop  in the localstorage
 for( var key in localStorage){
     var htmlelement= document.getElementById(key)
     htmlelement.value= localStorage.getItem(key)
