@@ -14,10 +14,12 @@ setInterval(() => {
     
 }, 1000)
 
+// add to localstorage
 function save(text){
     localStorage.setItem(text.id, text.value)
 }
 
+// retrieve from localstorage
 for( var key in localStorage){
     var htmlelement= document.getElementById(key)
     htmlelement.value= localStorage.getItem(key)
