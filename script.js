@@ -1,13 +1,48 @@
+var row = document.getElementById("#row")
+ 
+
+
+
+
+
 //add local time/ date
-var today = moment();
+
+var today = moment()
 setInterval(() => {
     var time= moment().format("MMM Do, YYYY HH:mm:ss ")
     $("#time").text(time)
     
-}, 1000);
+}, 1000)
+
+function save(text){
+    localStorage.setItem(text.id, text.value)
+}
+
+for( var key in localStorage){
+    var htmlelement= document.getElementById(key)
+    htmlelement.value= localStorage.getItem(key)
+
+}
+
+
+
+ 
+
+// function colorchange(){
+//     for( i=0; i<moment.lenght)
+//     if (row === moment()){
+//         $(row).css('color','white')
+//         console.log('fsadfsa')
+//     }
+//     else if ( row <= moment()){
+//         $(row.css('color','red'))
+//     }
+//     else{ $(row).css('color','green')}
+// }
+
+
     
-<<<<<<< HEAD
+    
 
 
-=======
->>>>>>> 73511fe1f57d7e3dae63ed28cc5abf00621718ea
+ 
