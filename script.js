@@ -1,10 +1,5 @@
 var row = document.getElementById("#row")
  
-
-
-
-
-
 //add local time/ date
 
 var today = moment()
