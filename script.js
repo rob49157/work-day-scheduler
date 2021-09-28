@@ -1,4 +1,5 @@
 var row = document.getElementById("#row")
+var timecolor= document.getElementsByClassName(".table-active")
  
 //add local time/ date
 
@@ -12,8 +13,18 @@ setInterval(() => {
 // change row colors.run a loop thru the today function, and everytime the time changes change  the color of the row using the ID"ROW" TO CHANGE THE TABLE ACTIVE CLASS. WITH AND IF STATEMENT. 
 
 function color(){
+    if (timecolor === moment() ){
+        color : white
+    } 
+    else if( timecolor >= moment()){
+        color: red
+        
+    }
+    else if( timecolor <= moment()){
+        color : green
+    }
     
-    $(".table-active").
+    
 }
 
 // add to localstorage
@@ -32,17 +43,6 @@ for( var key in localStorage){
 
  
 
-// function colorchange(){
-//     for( i=0; i<moment.lenght)
-//     if (row === moment()){
-//         $(row).css('color','white')
-//         console.log('fsadfsa')
-//     }
-//     else if ( row <= moment()){
-//         $(row.css('color','red'))
-//     }
-//     else{ $(row).css('color','green')}
-// }
 
 
     
