@@ -1,7 +1,3 @@
-// var row = document.getElementById("#row")
-// var timecolor= document.getElementsByClassName(".table-active")
-
-
 
 
 //add local time/ date
@@ -10,7 +6,7 @@ var today = moment()
 setInterval(() => {
     var time= moment().format("MMM Do, YYYY HH:mm:ss ")
     $("#time").text(time)
-    var timestring= '6:53:00'
+    
     }, 1000)
 
 // change row colors.run a loop thru the today function, and everytime the time changes change  the color of the row using the ID"ROW" TO CHANGE THE TABLE ACTIVE CLASS. WITH AND IF STATEMENT. 
@@ -36,9 +32,6 @@ $('tr.table-active').each(function(){
     
     
 })
-
-
-
 
 // add to localstorage
 function save(text){
