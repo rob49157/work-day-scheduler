@@ -12,3 +12,5 @@ to create the table i needed to get code from bootstrap and added text area, so 
 - local storage: save user input to local storage. Then retrive with getitem.
 
 
+# screenshot 
+https://github.com/rob49157/work-day-scheduler/issues/1#issue-1010389803 
