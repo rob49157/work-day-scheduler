@@ -1,5 +1,5 @@
 # work-day-scheduler
-the purpose of the app is the create a day planer for the user normal workday hours from 9-5. Each table will change to color "red" as time passes by.
+The purpose of the app is the create a day planer for the user normal workday hours from 9-5. Each table will change to color "red" as time passes by.
 
 # html- bootstrap
 time setup- use jsquery "moment()" function to get the  current time and date.
@@ -11,6 +11,9 @@ to create the table i needed to get code from bootstrap and added text area, so 
 - changing colors: to change the colors of each row base on what time it is, i need to use jquary to get the "tr" element from the index.html. Then i convert the variables into intergers to a conditional statement. Base on the result of the condition the color changes.
 
 - local storage: save user input to local storage. Then retrive with getitem.
+
+# commit history 
+https://github.com/rob49157/work-day-scheduler/commits/main
 
 # deployed link
 
