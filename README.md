@@ -1,4 +1,5 @@
 # work-day-scheduler
+the purpose of the app is the create a day planer for the user normal workday hours from 9-5. Each table will change to color "red" as time passes by.
 
 # html- bootstrap
 time setup- use jsquery "moment()" function to get the  current time and date.
